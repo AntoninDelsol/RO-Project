@@ -2,4 +2,6 @@ donnees <- read.table(file.choose(), sep=" ",skip=2)
 
 
 
-eval <- function()
+eval <- function(donnees,tableau_de_fournisseurs){
+  return ()
+}
