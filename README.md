@@ -18,3 +18,7 @@ La lecture du fichier retourne un dataframe avec une colonne vide à la fin qui 
 Pour la fonction éval, on implémente la formule donnée dans le sujet.
 - Le paramètre d'entrée doit être un dataframe contenant un sous-ensemble de ligne des données initiales
 - La sortie est un nombre.
+
+Pour la fonction algog(algorithme glouton), on prend en paramètre le data.frame des données qui nous retournera l'ensemble O de fournisseurs ouverts.
+
+Pour la fonction heur(heuristique de recherche locale), on prend en paramètre le data.frame des données qui nous retournera l'ensemble O de fournisseurs ouverts avec une meileure solution.
