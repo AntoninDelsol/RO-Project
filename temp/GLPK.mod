@@ -17,8 +17,6 @@ subject to
 T{i in 1..F,j in 1..L}:  x[i,j]<=y[i];
 R{j in 1..L} : sum{i in 1..F} x[i,j]=1;
 
-
-
 printf "lancement du solve \n";
 
 solve;
