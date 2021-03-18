@@ -1,5 +1,15 @@
 # RO-Project
-# Lecture des fichiers et fonction d'évaluation
+## Répartition du travail et difficultés rencontrées
+
+Le travail a été réparti au début du projet.
+Les membres du groupe se sont mis d'accord sur cette répartition :
+- Questions 1 et 2  - Stan
+- Questions 3 et 4 - Mélanie
+- Questions 5 et 6 - Antonin
+
+Une fois la répartition faite, nous avons pu commencer à travailler sur le projet.
+
+## Lecture des fichiers et fonction d'évaluation
 
 Pour la lecture du fichier, on utililse la fonction read.table avec l'option skip pour ignorer les deux premières lignes.
 L'utilisateur pourra choisir quel fichier lire grâce à la fonction file.choose().
