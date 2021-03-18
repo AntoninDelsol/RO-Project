@@ -9,6 +9,8 @@ Les membres du groupe se sont mis d'accord sur cette répartition :
 
 Une fois la répartition faite, nous avons pu commencer à travailler sur le projet.
 
+Comme difficultés rencontrées, il y a la compréhension des exemples qui n'étaient pas assez explicites.
+
 ## Lecture des fichiers et fonction d'évaluation
 
 Pour la lecture du fichier, on utililse la fonction read.table avec l'option skip pour ignorer les deux premières lignes.
