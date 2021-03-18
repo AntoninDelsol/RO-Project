@@ -38,3 +38,4 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 glpk-4.65
+/glpk-4.65.zip

@@ -8,7 +8,7 @@ param C {i in 1..F}; #Cout d'ouverture des fournisseurs
 
 
 var y{i in 1..F}, binary; #tableau des fournisseur ouvert
-var x{c in 1..L,f in 1..F}, binary; #tableau possibilité fournisseur
+#var x{c in 1..L}{f in 1..F}, binary; #tableau possibilité fournisseur
 
 minimize z :
 	sum (i in 1..F) (j in 1..L) C[i]*y[i] + C[j,i]*x[j,i] ;
