@@ -1,11 +1,13 @@
-# Importation des données en skippant les deux premières lignes
-donnees <- read.table(file.choose(), sep=" ",skip=2)
-# Pour supprimer la dernière colonne (n°103) dont les valeurs sont NA 
-donnees <- donnees[,colSums(is.na(df))<nrow(df)]
-
+read <- function(){
+  # Importation des données en skippant les deux premières lignes
+  donnees <- read.table(file.choose(), sep=" ",skip=2)
+  # Pour supprimer la dernière colonne (n°103) dont les valeurs sont NA 
+  donnees <- donnees[,colSums(is.na(df))<nrow(df)]
+  return(donnees)
+}
 
 # Pour tester eval
-df <- donnees[c(1,2,3),]
+#df <- donnees[c(1,2,3),]
 
 # fournisseurs_choisis doit être un sous-ensemble de lignes de données (comme df)
 eval <- function(fournisseurs_choisis){
