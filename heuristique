@@ -6,7 +6,7 @@ heur= function(fournisseurs_choisis){
       delta<-eval(o)-eval(fc)
       if(delta>0)
       {
-        n<-fc[,j]
+        n<-fc[j,]
         o<-o[-c(o[,i]),] 
         o<-rbind(o,n)
       }
