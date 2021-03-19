@@ -2,7 +2,7 @@ read <- function(){
   # Importation des données en skippant les deux premières lignes
   donnees <- read.table(file.choose(), sep=" ",skip=2)
   # Pour supprimer la dernière colonne (n°103) dont les valeurs sont NA 
-  donnees <- donnees[,colSums(is.na(df))<nrow(df)]
+  donnees <- donnees[,colSums(is.na(donnees))<nrow(donnees)]
   return(donnees)
 }
 

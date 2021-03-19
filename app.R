@@ -74,4 +74,5 @@ source('./read.r')
 source('./algorithme glouton.r')
 source('./heuristique.r')
 source('./Glpk.R')
+
 donnes<- read()
