@@ -3,7 +3,6 @@ algog = function(fournisseurs_choisis){
   colnames(o)<-colnames(fournisseurs_choisis)
   while (eval(fournisseurs_choisis)<eval(o))
   {
-    fournisseurs_choisis<-fournisseurs_choisis
     choix <- data.frame()
     if(o[,1]!=Inf)
     {
@@ -29,6 +28,7 @@ algog = function(fournisseurs_choisis){
     }
     fournisseurs_choisis<-fournisseurs_choisis[-c(o[,1]),] 
   }
-  return (o)
+  print(eval(o))
   
+  return (o)
 }

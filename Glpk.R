@@ -1,9 +1,4 @@
-
-
 GLPK = function (unDataFrame){
-  
-  ###Force wd au dossier source de l'application pour pourvoir utiliser les chemins relatifs
-  setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
   
   ### Création du fichier data grace au DataFrame
   write('data;',file = './temp/GLPK.dat',append = FALSE)

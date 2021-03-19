@@ -10,7 +10,7 @@ read <- function(){
 #df <- donnees[c(1,2,3),]
 
 # fournisseurs_choisis doit être un sous-ensemble de lignes de données (comme df)
-eval <- function(fournisseurs_choisis){
+eval = function(fournisseurs_choisis){
   ouverture <- sum(fournisseurs_choisis[2],na.rm = TRUE)
   cout_clients <- 0
   for (j in 3:ncol(fournisseurs_choisis)) {

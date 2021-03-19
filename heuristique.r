@@ -3,7 +3,8 @@ heur= function(fournisseurs_choisis){
   fc<-fournisseurs_choisis[-c(o[,1]),] 
   for (i in 1:nrow(o)) {
     for (j in 1:nrow(fc)) {
-      delta<-eval(o)-eval(fc)
+      t<-rbind(o[i,],fc[j,])
+      delta<-eval(o)-eval(t)
       if(delta>0)
       {
         n<-fc[j,]
@@ -12,5 +13,7 @@ heur= function(fournisseurs_choisis){
       }
     }
   }
+  print(eval(o))
+  
   return (o)
 }
